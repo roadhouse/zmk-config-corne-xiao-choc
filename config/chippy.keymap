@@ -31,7 +31,7 @@
 
                 lower_layer {
                         bindings = <
-   &tra     &mt LS(N1) N1 &mt LS(N2) N2 &mt LS(N3) N3 &mt LS(N4) N4 &mt LS(N5) N5       &kp MINUS &kp EQUAL &kp LBKT &kp RBKT  &kp BSLH   &trans
+   &trans   &mt LS(N1) N1 &mt LS(N2) N2 &mt LS(N3) N3 &mt LS(N4) N4 &mt LS(N5) N5       &kp MINUS &kp EQUAL &kp LBKT &kp RBKT  &kp BSLH   &trans
    &trans   &mt LS(N6) N6 &mt LS(N7) N7 &mt LS(N8) N8 &mt LS(N9) N9 &mt LS(N0) N0       &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT &kp GRAVE  &trans
    &trans   &trans        &trans        &trans        &trans        &trans              &trans    &trans    &trans   &trans    &trans     &trans
                                         &trans        &trans        &trans              &trans    &trans    &trans
