@@ -24,10 +24,10 @@
 
                 default_layer {
                         bindings = <
-   &kp LBKT     &kp Q   &kp W     &kp E       &kp R     &kp T               &kp Y         &kp U       &kp I     &kp O   &kp P    &kp RBKT
-   &kp TMUX     &kp A   &kp S     &kp D       &kp F     &kp G               &kp H         &kp J       &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LGUI     &kp Z   &kp X     &kp C       &kp V     &kp B               &kp N         &kp M       &kp COMMA &kp DOT &kp FSLH &kp BSLH
-                                  &kp LSHFT   &lt 1 TAB &mt LCTRL SPACE     &mt LALT RET  &lt 2 BSPC  &kp ESC
+   &kp LBKT     &kp Q        &kp W     &kp E              &kp R                  &mt LC(T) T                 &kp Y         &kp U       &kp I     &kp O   &kp P    &kp RBKT
+   &kp TMUX     &mt LC(A) A  &kp S     &kp D              &kp F                  &kp G                       &kp H         &kp J       &kp K     &kp L   &kp SEMI &kp SQT
+   &kp LGUI     &kp Z        &kp X     &mt LC(C) C        &mt LC(V) V            &kp B                       &kp N         &kp M       &kp COMMA &kp DOT &kp FSLH &kp BSLH
+                                       &kp LSHFT          &lt 1 TAB              &mt LCTRL SPACE             &mt LALT RET  &lt 2 BSPC  &kp ESC
                         >;
                 };
 
