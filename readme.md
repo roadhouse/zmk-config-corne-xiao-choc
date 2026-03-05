@@ -1,4 +1,10 @@
-Chippy or corne-choc-xiao config file and shield
+Chippy (Corne Choc + XIAO BLE) ZMK config and shield.
 
-later will be updated with more info and build guide, this repo has the corne qwerty layout as default.
+Current hardware target:
+- Split Corne 3x6 + 3 thumb keys
+- No display
+- No RGB
 
+Source of truth:
+- Keymap: `config/chippy.keymap`
+- Runtime config: `config/chippy.conf`
