@@ -1,0 +1,39 @@
+draw_config:
+  dark_mode: false
+  draw_key_sides: true
+  n_columns: 2
+  footer_text: "Chippy - ZMK - Tokyo Night Storm"
+  svg_extra_style: |
+    svg.keymap {
+      font-family: "JetBrains Mono", "Fira Code", monospace;
+      fill: #c0caf5;
+    }
+    text {
+      fill: #c0caf5;
+    }
+    rect.key {
+      fill: #24283b;
+      stroke: #414868;
+    }
+    rect.side {
+      fill: #1f2335;
+      stroke: #414868;
+    }
+    rect.combo, rect.combo-separate {
+      fill: #2f3b5f;
+      stroke: #7aa2f7;
+    }
+    rect.held, rect.combo.held {
+      fill: #6b2d4d;
+      stroke: #f7768e;
+    }
+    text.trans {
+      fill: #7a82aa;
+    }
+    text.label, text.footer {
+      stroke: #1f2335;
+    }
+    path.combo {
+      stroke: #7aa2f7;
+      stroke-width: 1.4;
+    }
