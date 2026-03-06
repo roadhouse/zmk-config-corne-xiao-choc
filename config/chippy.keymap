@@ -43,7 +43,7 @@
 
 #define LOWER_TH \
       &trans  &trans  &trans \
-      &trans  &trans  &trans
+      &trans  &trans  &bt_profile_report
 
 
 /* =========================================================
@@ -86,6 +86,11 @@
 / {
 
     behaviors {
+        bt_profile_report: bt_profile_report {
+            compatible = "zmk,behavior-bt-profile-report";
+            #binding-cells = <0>;
+        };
+
         bspc_del: bspc_del {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;

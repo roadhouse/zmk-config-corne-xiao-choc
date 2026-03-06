@@ -1,0 +1,16 @@
+# Local development tooling/state
+/.agents/
+/.west/
+/codex_session.sh
+/skills-lock.json
+
+# West workspace dependencies (fetched locally)
+/modules/
+/optional/
+/zephyr/
+/zmk/
+
+# Build outputs and generated diagrams
+/build/
+/keymap.yaml
+/keymap.svg

@@ -1,0 +1,10 @@
+menu "Chippy Custom Features"
+
+config ZMK_BEHAVIOR_BT_PROFILE_REPORT
+    bool "Enable BT profile text report behavior"
+    default y
+    help
+      Enables a custom behavior that types `Profile BT <digit>` for the
+      currently active Bluetooth profile.
+
+endmenu
