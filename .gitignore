@@ -10,7 +10,10 @@
 /zephyr/
 /zmk/
 
-# Build outputs and generated diagrams
-/build/
+# Build outputs (track only rendered keymap SVG artifact)
+/build/*
+!/build/artifacts/
+/build/artifacts/*
+!/build/artifacts/keymap.svg
 /keymap.yaml
 /keymap.svg
