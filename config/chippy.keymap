@@ -51,13 +51,13 @@
  * ========================================================= */
 
 #define RAISE_L1 \
-  &trans     &trans   &kp N1   &kp N2   &kp N3   &trans      &kp LBKT &kp RBKT &kp LBRC &kp RBRC &kp BSLH &kp GRAVE
+  &trans     &trans   &kp N1   &kp N2   &kp N3   &trans      &kp BSLH &kp LBRC &kp RBRC &kp EQUAL &kp MINUS &kp GRAVE
 
 #define RAISE_L2 \
-  &trans     &trans   &kp N4   &kp N5   &kp N6   &kp N0       &kp MINUS &kp EQUAL &kp UNDER &kp PLUS  &kp PIPE &kp TILDE
+  &trans     &trans   &kp N4   &kp N5   &kp N6   &kp N0       &kp PIPE &kp LPAR &kp RPAR &kp PLUS  &kp UNDER &kp TILDE
 
 #define RAISE_L3 \
-  &trans     &trans   &kp N7   &kp N8   &kp N9   &trans       &kp FSLH &kp ASTRK &kp AMPS  &kp CARET &kp LPAR &kp RPAR
+  &trans     &trans   &kp N7   &kp N8   &kp N9   &trans       &kp FSLH &kp LBKT &kp RBKT &kp CARET &kp AMPS &kp ASTRK
 
 #define RAISE_TH \
       &trans  &trans  &trans \
